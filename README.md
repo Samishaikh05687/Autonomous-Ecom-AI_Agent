@@ -34,9 +34,43 @@ An intelligent **Autonomous E-commerce AI Agent** that enhances online shopping 
 git clone https://github.com/yourusername/autonomous-ecom-ai.git
 cd autonomous-ecom-ai
 ```
+### 2. Install dependencies
 
-## Configure environment variables
+Frontend:
+```bash
+cd client
+npm install
+```
+
+Backend:
+```bash
+cd server
+npm install
+```
+### 3. Configure environment variables
 ```bash
 MONGO_URI=<your-mongodb-connection-string>
 GEMINI_API_KEY=<your-gemini-llm-key>
 ```
+### 4. Run the project
+
+Backend:
+```bash
+cd server
+npm start
+```
+
+Frontend:
+```bash
+cd client
+npm start
+```
+# 🔍 How it Works
+
+~ User Interaction: Customers interact with the AI agent via chat or product search.
+
+~ Vector Search: Queries are transformed into embeddings and searched efficiently in MongoDB.
+
+~ LLM Processing: Gemini LLM processes the query, generates recommendations, and formulates responses.
+
+~ Real-Time Response: The AI provides product suggestions, answers queries, and can guide the customer through the store.
