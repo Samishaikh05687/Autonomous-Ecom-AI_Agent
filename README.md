@@ -1,6 +1,7 @@
 # 🛍️ Autonomous E-commerce AI Agent
 
-An intelligent **Autonomous E-commerce AI Agent** that enhances online shopping experiences by providing personalized product recommendations, real-time interactions, and automated assistance.
+An intelligent **Autonomous E-commerce AI Agent** leveraging advanced AI and vector search techniques to deliver **personalized product recommendations, real-time natural language interactions, and fully automated customer assistance**.
+
 
 ---
 
