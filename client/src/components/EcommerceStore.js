@@ -3,8 +3,9 @@ import { FaSearch, FaShoppingCart, FaUser, FaHeart, FaStar, FaBars, FaTimes } fr
 import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls, Float } from "@react-three/drei";
 import { motion, AnimatePresence } from "framer-motion";
-
 import ChatWidget from './ChatWidget';
+
+// Interactive 3D Luxury Bag Component
 
 
 const EcommerceStore = () => {
